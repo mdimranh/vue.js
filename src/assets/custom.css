@@ -1,0 +1,15 @@
+li a.router-link-active {
+    border-bottom: 2px solid green;
+}
+
+#sidenav {
+    /* transition: all 0.2s ease; */
+}
+
+#sidenav .nav-item {
+    border-left: 2px solid transparent;
+}
+
+#sidenav .nav-item.router-link-active {
+    background-color: rgba(0, 110, 0, 0.123);
+}
